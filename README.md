@@ -21,6 +21,7 @@ docker run -d -p 5000:5000 malaohu/mobaxterm-genkey
 
 ### 激活方式
 直接放到软件目录即可！
+
 Flask版本要改下，不然运行会报错cannot import name 'escape' from 'jinja2'
 Jinja 是 Fl​​ask 的依赖项，Flask V1.XX 使用escapeJinja 的模块，但是最近在新版本的 Jinjaescape中删除了对该模块的支持。
 
